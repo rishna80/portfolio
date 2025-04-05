@@ -1,0 +1,34 @@
+.knowledges-container {
+  width: 100%;
+}
+
+.knowledges-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.knowledge-item {
+  padding: 8px 12px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*  Responsive Design for 420px */
+@media (max-width: 420px) {
+  .knowledges-container {
+    text-align: center;
+  }
+
+  .knowledges-list {
+    justify-content: center; /* Centers items on small screens */
+    gap: 8px;
+  }
+
+  .knowledge-item {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}

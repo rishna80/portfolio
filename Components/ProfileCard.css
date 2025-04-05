@@ -1,0 +1,150 @@
+.profile-card {
+  width: 260px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Inter", sans-serif;
+}
+
+.profile-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.profile-image {
+  margin-top: 60px;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.role-button {
+  background: #e0e0e0;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: default;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 18px;
+  background: #e0e0e0;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  background: #d1d1d1;
+}
+
+.info-card {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #0000006b;
+}
+
+.info-icon {
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+.facebook {
+  color: #1877f2;
+}
+.whatsapp {
+  color: #25d366;
+}
+.instagram {
+  color: #e4405f;
+}
+.linkedin {
+  color: #0077b5;
+}
+.pink { background: #ff4d94; }
+.blue { background: #00bfff; }
+.red { background: #ff4d4d; }
+.purple { background: #a64dff; }
+
+.info-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+}
+
+.info-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*  Responsive Design for Mobile (Max 420px) */
+@media (max-width: 420px) {
+  .profile-card {
+    width: 100%;
+    max-width: 320px;
+    padding: 65px;
+    margin: 20px auto;
+  }
+
+  .profile-image {
+    margin-top: 20px;
+    height: 35vh;
+  }
+
+  .role-button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .social-icons {
+    gap: 8px;
+  }
+
+  .icon {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .info-item {
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 6px;
+  }
+
+  .info-title {
+    font-size: 11px;
+  }
+  .info-card {
+    /* padding: 30px; */
+    width: 100%;
+    margin-right: 30px;
+    align-items: center;
+  }
+
+  .info-text {
+    font-size: 13px;
+  }
+}
